@@ -29,6 +29,7 @@ export const useQuestion = () => {
   const rand = (options: services.QuestionOptions) => {
     // 清空选项颜色
 
+    
     // 初始化索引
 
     services.randQuestion(options)
