@@ -1,0 +1,57 @@
+.index .text {
+  text-align: center;
+}
+
+.operat-panel {
+  position: fixed;
+  bottom: 0;
+  // background: #6190E8;
+  // background: #f8f8f8;
+  // border-radius: 40px 40px 0 0;
+}
+.half--circle {
+  border-radius: 40px 40px 0 0;
+  box-shadow: 2px -4px 7px 0px #eee;
+  background-clip: border-box;
+  // background: #f8f8f8;
+  background-image: linear-gradient(0deg, #f8f8f8 5%, #eee 600%);
+  border: 0;
+  color: #666;
+  font-weight: bold;
+}
+
+.self_title {
+  // color: red;
+  font-weight: bold;
+  font-size: 20PX;
+}
+.self_option {
+  border-radius: 10PX;
+  box-shadow: 5PX 4PX 7PX 0PX #eee;
+  margin: 10PX 0;
+  background: #f8f8f8;
+  transition: .2s;
+}
+.self_option:active {
+  transform: scale(0.98);
+  transition: 0.05s;
+}
+.self_q-card {
+  // background: #f8f8f8;
+  // border: 1rpx solid #f7f7f7;
+  // border-radius: 7px;
+  // box-shadow: 1px 10px 8px 0px #eee;
+  margin: 0 5PX;
+  view {
+    padding: 8PX 5PX;
+  }
+}
+
+.self_right {
+  background: #6190e8;
+  color: white;
+}
+.self_wrong {
+  background: #fa541c;
+  color: white;
+}

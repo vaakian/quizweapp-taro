@@ -1,0 +1,39 @@
+{
+	"miniprogramRoot": "dist/",
+	"projectname": "quiz2020-taro",
+	"description": "技能高考驿站weApp",
+	"appid": "wx8f63f570e73ae643",
+	"setting": {
+		"urlCheck": false,
+		"es6": false,
+		"enhance": false,
+		"postcss": false,
+		"minified": false,
+		"newFeature": true,
+		"coverView": true,
+		"nodeModules": false,
+		"autoAudits": false,
+		"uglifyFileName": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": false,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		},
+		"remoteDebugLogEnable": false
+	},
+	"compileType": "miniprogram",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"libVersion": "2.10.4",
+	"qqappid": "1108100302",
+	"scripts": {
+		"beforeCompile": "",
+		"beforePreview": "",
+		"beforeUpload": ""
+	},
+	"qqLibVersion": "1.13.0",
+	"condition": {}
+}
